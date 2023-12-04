@@ -1,5 +1,5 @@
 {
-  "name": "adventofcode-typescript-starter",
+  "name": "advent-of-code-2023",
   "version": "1.0.0",
   "description": "https://adventofcode.com/",
   "main": "src/index.ts",
@@ -9,7 +9,7 @@
     "setup": "node src/setup.js",
     "start": "npm run build && node build/index.js"
   },
-  "author": "Loris Bognanni",
+  "author": "Filip Novotny",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^27.0.3",
