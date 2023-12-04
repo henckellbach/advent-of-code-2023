@@ -14,7 +14,7 @@ class Day1 extends Day {
   private replaceNumerals(input: string): string {
     let result = input;
     NUMERALS.forEach((numeral, index) => {
-      result = result.replace(new RegExp(`(${numeral})`, 'ig'), `$1${(index)}$1`);
+      result = result.replace(new RegExp(`(${numeral})`, 'ig'), `$1${index}$1`);
     });
     return result;
   }
