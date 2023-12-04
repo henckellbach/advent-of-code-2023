@@ -1,7 +1,6 @@
 module.exports = {
   env: {
     browser: true,
-    es2021: true,
     'jest/globals': true,
   },
   extends: [
@@ -9,7 +8,7 @@ module.exports = {
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
-    ecmaVersion: 13,
+    ecmaVersion: 2023,
     sourceType: 'module',
   },
   plugins: [
@@ -20,6 +19,7 @@ module.exports = {
     'class-methods-use-this': 'off',
     'import/extensions': 'off',
     'import/prefer-default-export': 'off',
+    'no-plusplus': 'off',
     'no-void': 'off',
   },
   settings: {
