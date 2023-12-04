@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import { Day } from './day';
 import day0 from './day0';
 import day1 from './day1';

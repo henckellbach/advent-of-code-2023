@@ -12,6 +12,7 @@ abstract class Day {
       return this.solveForPartOne(content.toString());
     }
 
+    // eslint-disable-next-line no-unused-vars
     abstract solveForPartOne(input: string) : string;
 
     async partTwo(): Promise<string> {
@@ -19,6 +20,7 @@ abstract class Day {
       return this.solveForPartTwo(content.toString());
     }
 
+    // eslint-disable-next-line no-unused-vars
     abstract solveForPartTwo(input: string) : string;
 }
 
